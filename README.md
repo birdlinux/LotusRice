@@ -7,13 +7,12 @@
     <li><a href="#install">Installation</a></li>
     <li><a href="#keybinds">Keybinds</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 
 
 <center> <h1 align="left" id="about">About</h1> </center>
 
-<center> <p align="left" >Lotus is a minimalist Pop OS rice that boasts lightning-fast performance and a clean, uncluttered interface designed to enhance productivity and streamline workflow. With bspwm as its window manager and sxhkd for binds, PurpMal delivers an intuitive user experience that is both efficient and customizable. Remarkably, this rice is capable of running smoothly on a mere 1GB of RAM, even with all applications open. PurpMal is an ideal choice for professionals seeking a fast and minimalistic operating system that can handle daily use with ease. </p></center>
+<center> <p align="left" >Lotus is a minimalist Pop OS rice that boasts lightning-fast performance and a clean, uncluttered interface designed to enhance productivity and streamline workflow. With bspwm as its window manager and sxhkd for binds, PurpMal delivers an intuitive user experience that is both efficient and customizable. Remarkably, this rice is capable of running smoothly on a mere 1GB of RAM, even with all applications open. PurpMal is an ideal choice for professionals seeking a fast and minimalistic operating system that can handle daily use with ease. </p></center
 
 <center> <h1 align="left" id="install">Installation</h1> </center>
 
@@ -81,7 +80,7 @@
     
       You need to open Alacritty and execute `cd .mozilla/firefox/` then you can list the files by doing `ls`.
       After that you have to find the folder that has `.default-release` at the end of it and then cd inside it.
-      If youre inside the profile Directory you can now execute `mkdir chrome && cd chrome` after that you can move the files from the [Firefox Files](https://github.com/FastShard/Shardic/tree/main/firefox) inside the chrome folder! When you're done close Firefox using ctrl + q!
+      If youre inside the profile Directory you can now execute `mkdir chrome && cd chrome` after that you can move the files from the [Firefox Files](https://github.com/FastShard/Shardic/tree/main/firefox) inside the chrome folder! When you're done close Firefox using ctrl + q!<br />
    
 <center> <h1 align="left" >Contributing</h1> </center>
 
@@ -89,9 +88,3 @@ Contributions are what make the open source community such an amazing place to l
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b new-dev-20220608`)
-3. Commit your Changes (`git commit -m 'Added Language Support'`)
-4. Push to the Branch (`git push origin new-dev-20220608`)
-5. Open a Pull Request
