@@ -88,13 +88,13 @@ setup_config() {
     echo " 🢒 Setting permissions"
    	cd $HOME
     cd .config/
-    sudo chmod +x * &> /dev/null
-    sudo chmod +x */* &> /dev/null
-    sudo chmod +x */*/* &> /dev/null
-    sudo chmod +x */*/*/* &> /dev/null
-    sudo chmod +x */*/*/*/* &> /dev/null
-    sudo chmod +x */*/*/*/*/* &> /dev/null
-    sudo chmod +x */*/*/*/*/*/* &> /dev/null
+    sudo chmod +x * 
+    sudo chmod +x */* 
+    sudo chmod +x */*/* 
+    sudo chmod +x */*/*/*
+    sudo chmod +x */*/*/*/* 
+    sudo chmod +x */*/*/*/*/*
+    sudo chmod +x */*/*/*/*/*/*
 }
  
 clean_files () {
