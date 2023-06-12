@@ -75,6 +75,7 @@ install_fonts() {
 
 setup_config() {
 	cd $HOME
+	rm -rf $HOME/.config/picom/
 	git clone --quiet https://github.com/birdlinux/LotusRice
     cd $HOME/LotusRice/.config/
     
@@ -95,6 +96,9 @@ setup_config() {
     sudo chmod +x */*/*/*/* 
     sudo chmod +x */*/*/*/*/*
     sudo chmod +x */*/*/*/*/*/*
+    
+    cd $HOME/LotusRice/fonts/
+    cp -r * /usr/share/fonts/
 }
  
 clean_files () {
