@@ -55,7 +55,7 @@ install_components() {
 
 install_picom() {
 	cd $HOME
-	"🢒 Installing Picom"
+	echo "🢒 Installing Picom"
 	git clone --quiet https://github.com/yshui/picom
 	cd picom
 	meson setup --buildtype=release . build &> /dev/null
