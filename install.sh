@@ -58,12 +58,12 @@ install_picom() {
 	"🢒 Installing Picom"
 	git clone --quiet https://github.com/yshui/picom
 	cd picom
-	meson setup --buildtype=release . build
-	ninja -C build
+	meson setup --buildtype=release . build &> /dev/null
+	ninja -C build &> /dev/null
 	cd build
 	cd src
-	chmod +x picom
-	cp picom /usr/bin/ 
+	sudo chmod +x picom
+	sudo cp picom /usr/bin/ 
 }
 
 install_fonts() {
