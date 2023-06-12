@@ -58,10 +58,9 @@ install_picom() {
 	echo " 🢒 Installing Picom"
 	git clone --quiet https://github.com/yshui/picom
 	cd picom
-	meson setup --buildtype=release . build &> /dev/null
-	ninja -C build &> /dev/null
-	cd build
-	cd src
+	meson setup --buildtype=release . build
+	ninja -C build
+	cd build/src/
 	sudo chmod +x picom
 	sudo cp picom /usr/bin/ 
 }
@@ -94,8 +93,6 @@ setup_config() {
     sudo chmod +x */*/* 
     sudo chmod +x */*/*/*
     sudo chmod +x */*/*/*/* 
-    sudo chmod +x */*/*/*/*/*
-    sudo chmod +x */*/*/*/*/*/*
     
     cd $HOME/LotusRice/fonts/
     cp -r * /usr/share/fonts/
