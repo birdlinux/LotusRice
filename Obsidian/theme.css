@@ -52,8 +52,8 @@ body {
   --callout-todo: var(--color-blue-rgb);
   --callout-warning: var(--color-orange-rgb);
   --callout-quote: 158,
-    158,
-    158;
+  158,
+  158;
   /* Canvas */
   --canvas-background: var(--background-primary);
   --canvas-card-label-color: var(--text-faint);
@@ -120,7 +120,7 @@ body {
   --embed-font-style: inherit;
   /* Blocks */
   --embed-block-shadow-hover: 0 0 0 1px var(--background-modifier-border),
-    inset 0 0 0 1px var(--background-modifier-border);
+  inset 0 0 0 1px var(--background-modifier-border);
   /* File layout */
   --file-line-width: 65ch;
   --file-folding-offset: 24px;
@@ -154,7 +154,7 @@ body {
   --graph-controls-width: 240px;
   --graph-text: var(--text-normal);
   --graph-line: var(--color-base-35,
-      var(--background-modifier-border-focus));
+    var(--background-modifier-border-focus));
   --graph-node: var(--text-muted);
   --graph-node-unresolved: var(--text-faint);
   --graph-node-focused: var(--text-accent);
@@ -323,17 +323,17 @@ body {
   --modal-max-width-narrow: 800px;
   --modal-border-width: var(--border-width);
   --modal-border-color: var(--color-base-40,
-      var(--background-modifier-border-focus));
+    var(--background-modifier-border-focus));
   --modal-radius: var(--radius-l);
   --modal-community-sidebar-width: 280px;
   /* PDF view */
   --pdf-background: var(--background-primary);
   --pdf-shadow: 0 0 0 1px rgba(0, 0, 0, 5%),
-    0 2px 8px rgba(0, 0, 0, 10%);
+  0 2px 8px rgba(0, 0, 0, 10%);
   --pdf-spread-shadow: 0 0 0 1px rgba(0, 0, 0, 5%);
   --pdf-sidebar-background: var(--background-primary);
   --pdf-thumbnail-shadow: 0 0 0 1px rgba(0, 0, 0, 15%),
-    0 2px 8px rgba(0, 0, 0, 20%);
+  0 2px 8px rgba(0, 0, 0, 20%);
   /* Popovers - file previews */
   --popover-width: 450px;
   --popover-height: 400px;
@@ -347,7 +347,7 @@ body {
   --prompt-max-height: 70vh;
   --prompt-border-width: var(--border-width);
   --prompt-border-color: var(--color-base-40,
-      var(--background-modifier-border-focus));
+    var(--background-modifier-border-focus));
   /* Radiuses */
   --radius-s: 4px;
   --radius-m: 8px;
@@ -471,7 +471,7 @@ body {
   --tag-background-hover: 0;
   --tag-border-color: hsl(var(--interactive-accent-hsl), 10%);
   --tag-border-color-hover: hsl(var(--interactive-accent-hsl),
-      15%);
+    15%);
   --tag-border-width: 0;
   --tag-padding-x: 0;
   --tag-padding-y: 0;
@@ -532,7 +532,7 @@ body {
   --text-on-accent: var(--text-normal);
   --text-error: var(--color-red);
   --text-success: var(--color-green);
-  --text-selection: hsla(var(--color-accent-hsl), 2%);
+  --text-selection: #1d1e2c;
   --text-accent: var(--color-accent);
   --text-accent-hover: var(--color-accent-2);
   --interactive-normal: var(--color-base-00);
@@ -1572,7 +1572,7 @@ settings:
   --text-error-hover: rgb(var(--ctp-red), 80%);
   --text-highlight-bg: rgb(var(--ctp-rosewater), 100%);
   --text-highlight-bg-active: rgb(var(--ctp-rosewater), 100%);
-  --text-selection: rgb(var(--ctp-rosewater), 100%);
+  --text-selection: #9f94bc;
   --text-on-accent: rgb(var(--ctp-base));
   --interactive-normal: rgb(var(--ctp-surface0));
   --interactive-hover: rgb(var(--ctp-surface1));
@@ -1646,7 +1646,7 @@ body {
 
 strong,
 .cm-strong {
-  --bold-color: rgb(var(--ctp-bold, var(--ctp-sapphire)));
+  --bold-color: #9f94bc;
 }
 
 em,
@@ -2664,7 +2664,7 @@ button.mod-cta:hover {
   --indentation-guide-color: rgb(var(--ctp-surface1));
   --indentation-guide-color-active: rgb(var(--ctp-sapphire), 70%);
   --indentation-guide-width: 2px;
-  --list-marker-color: rgb(var(--ctp-sapphire));
+  --list-marker-color: #9f94bc;
   --checklist-done-color: rgb(var(--ctp-green));
   /*
   * Nav bar
@@ -3621,16 +3621,22 @@ body:not(.is-grabbing .ctp-full-palette) .mk-sidebar {
 /*# sourceMappingURL=theme.css.map */
 
 .canvas-edges path.canvas-display-path {
-  stroke: #9f94bc;
+	stroke: #9f94bc;
 }
-
 .canvas-node-container {
   border: 2px solid #1d1e2c;
 }
-
 /* .canvas-node-container {
   text-align: center;
 }
 .canvas-node-container .is-loaded {
 text-align: left;
 } */
+
+a {
+  color: #9f94bc;
+}
+
+a:hover {
+  color: #9f94bc;
+}
