@@ -64,7 +64,7 @@ body {
   --canvas-color-4: var(--color-green-rgb);
   --canvas-color-5: var(--color-cyan-rgb);
   --canvas-color-6: var(--color-purple-rgb);
-  --canvas-dot-pattern: var(--color-base-30);
+  --canvas-dot-pattern: #2b2d3f;
   /* Checkboxes */
   --checkbox-radius: var(--radius-s);
   --checkbox-size: 15px;
@@ -3626,12 +3626,6 @@ body:not(.is-grabbing .ctp-full-palette) .mk-sidebar {
 .canvas-node-container {
   border: 2px solid #1d1e2c;
 }
-/* .canvas-node-container {
-  text-align: center;
-}
-.canvas-node-container .is-loaded {
-text-align: left;
-} */
 
 a {
   color: #9f94bc;
